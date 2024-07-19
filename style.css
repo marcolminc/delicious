@@ -1,0 +1,42 @@
+.content {
+    background-image: url("./images/banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 132px);
+}
+footer:after {
+    background-color: black;
+    height: 20vh;
+}
+.aside, .contact-form {
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(4px);
+}
+.cover {
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.aside {
+    min-height: 80vh;
+}
+.header, .menu-list li {
+    text-shadow: 2px 2px 4px #222;
+}
+input, textarea {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.thumb {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.menu-list li {
+    backdrop-filter: blur(6px);
+    margin-bottom: 4px;
+}
+.menu-list li:nth-child(2n + 1) {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.menu-list li:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
